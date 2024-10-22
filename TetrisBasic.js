@@ -20,7 +20,6 @@ let gameBoardArray = [...Array(20)].map(e => Array(12).fill(0));
 
 let stoppedShapeArray = [...Array(20)].map(e => Array(12).fill(0));
 
-
 let DIRECTION = {
     IDLE: 0,
     DOWN: 1,
@@ -68,7 +67,7 @@ function SetupCanvas(){
 
     tetrisLogo = new Image(161, 54);
     tetrisLogo.onload = DrawTetrisLogo;
-    tetrisLogo.src = "tetrislogo.png";
+    tetrisLogo.src = "tetrisLogo.png";
 
     ctx.fillStyle = 'black';
     ctx.font = '21px Arial';
